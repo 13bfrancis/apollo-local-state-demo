@@ -4,13 +4,7 @@ import { produce } from "immer";
 import { v4 as uuidv4 } from "uuid";
 
 // state initialization
-export const todoListVar = makeVar<Todo[]>([
-  {
-    id: "123",
-    description: "finish tut",
-    completed: false,
-  },
-]);
+export const todoListVar = makeVar<Todo[]>([]);
 
 // methods for manipulating todo list below
 
